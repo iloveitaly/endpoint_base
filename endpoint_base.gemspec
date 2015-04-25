@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'json'
   gem.add_dependency 'jbuilder'
-  gem.add_dependency 'activesupport'
+  gem.add_dependency 'activesupport', '~> 4.1.6'
 
   #sinatra
   gem.add_development_dependency 'sinatra', '1.4.3'
